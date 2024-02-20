@@ -1,0 +1,12 @@
+    {% extends 'core/base.html'%}
+
+    {% block tittle %}Portada{% endblock %}
+
+    {% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %} {# Para corregir el error de sintaxis cuando no se ve la imagen, iria de esta manera.#}
+
+    {% block headers %}
+    <h1>Andrés Soria</h1>
+    <span class="subheading">Django developer</span>
+    {% endblock %}
+    
+   
